@@ -1,0 +1,16 @@
+# Detiene la busqueda de archivos .editirconfig
+root = true
+# Para todos los archivos
+[*.ts]
+# Define la códificación de caracteres de los archivos (latin1, utf-8, utf-8-bom, utf-16be o utf-16le)
+charset = utf-8
+#Estilo de la identación (tab o space)
+indent_style = space
+#tamaño de la tabulación (número entero)
+indent_size = 2
+#Establece el control de salto de linea(lf, cr, o crlf)
+end_of_line = lf
+#Define si añade una linea nueva al final (true o false)
+insert_final_newline = true
+#define si acepta un espacio en blando al final de cada salto de linea (true o false)
+trim_trailing_whitespace = true
