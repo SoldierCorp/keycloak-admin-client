@@ -1,7 +1,7 @@
 import KcAdminClient from '@keycloak/keycloak-admin-client';
 
 const kcAdminClient = new KcAdminClient({
-  baseUrl: 'https://auth.dev.v2x.presencepg.com',
+  baseUrl: 'https://auth.dev.v2x.xxxx.com',
   realmName: 'master',
 });
 
